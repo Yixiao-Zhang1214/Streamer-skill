@@ -139,27 +139,26 @@ Generated character Skills can also be one-command installed into any host.
 
 ## ⚡ Install
 
-It's 2026 — you have an Agent, let it install itself. Open your Claude Code / Hermes / OpenClaw / Codex and hand it this line:
+You can install this upgraded Streamer engine directly via your compatible Agent (like Trae, Claude Code, or OpenClaw). Just tell your Agent:
 
-> Install the dot-skill skill for me: `https://github.com/titanwings/colleague-skill`
+> Install the streamer skill for me: `https://github.com/Yixiao-Zhang1214/Streamer-skill`
 
-The Agent will detect the current host's skills directory, clone the repo, and register the entrypoint. Once done, type `/dot-skill` in any host to launch.
+The Agent will clone the repo and register the entrypoint. Once done, type `/dot-skill-copy` in any host to launch.
 
 <details>
-<summary><b>🛠️ Want to install it yourself? Click for paths</b></summary>
+<summary><b>🛠️ Want to install it manually? Click for paths</b></summary>
 
 <br>
 
 ```bash
-git clone https://github.com/titanwings/colleague-skill <TARGET>
+git clone https://github.com/Yixiao-Zhang1214/Streamer-skill <TARGET>
 ```
 
 | Host | `<TARGET>` path |
 |------|-----------------|
-| Claude Code | `~/.claude/skills/dot-skill` |
-| OpenClaw | `~/.openclaw/workspace/skills/dot-skill` |
-| Codex | `~/.codex/skills/dot-skill` |
-| Hermes | After clone, run `python3 tools/install_hermes_skill.py --force` |
+| Trae / Claude Code | `~/.claude/skills/dot-skill-copy` |
+| OpenClaw | `~/.openclaw/workspace/skills/dot-skill-copy` |
+| Codex | `~/.codex/skills/dot-skill-copy` |
 
 </details>
 
