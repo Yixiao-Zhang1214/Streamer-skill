@@ -172,42 +172,36 @@ Generated character Skills can be published with `tools/install_claude_generated
 
 ## 🚀 Usage
 
-In the host where dot-skill is installed, launch it — type `/dot-skill`, or just tell your Agent "start dot-skill".
+Since this fork focuses heavily on the **Streamer** capability, here is how to use the upgraded engine to generate a high-conversion live-commerce script:
 
-It first asks which family you want to distill: `colleague` · `relationship` · `celebrity`.
+### Step 1: Distill the Streamer
 
-Then enter alias, basic profile, personality tags, and pick a data source. All fields can be skipped — even a description alone can generate a Skill.
+1. In your compatible Agent host (e.g., Trae, Claude Code, Hermes), invoke the skill:
+   `/dot-skill-copy` (or `/dot-skill`)
+2. Select **`streamer`** when prompted for the character family.
+3. Provide the streamer's Douyin/TikTok profile URL, target audience, and (highly recommended) upload their past **Live ASR transcripts (.txt or .xlsx)**.
+4. The engine will automatically segment the ASR, extract deep metrics (pacing, question density, gift anchors), and generate the 7-stage methodology.
 
-Once created, invoke the generated Skill with `/{character}-{slug}`.
+### Step 2: Generate Scripts
+
+Once the streamer skill is generated (e.g., `streamer-Xiaozhouz55`), you can invoke it anytime to write scripts for new products:
+
+```text
+User ❯ Use the Xiaozhouz55 skill. I need a script for CT Flawless Finish Powder. 
+         Target audience is young women in the South. 
+         Price is 299, comes with 2 puffs and a mini lipstick.
+
+Xiaozhouz55 ❯ (Generates the 8-segment deep teleprompter script...)
+              "广东的姐妹们，夏天出门是不是一出汗就疯狂脱妆、卡粉？是不是？！..."
+```
 
 ### 🎛️ Commands
 
 | Command | Description |
 |---------|-------------|
-| `/dot-skill` | Canonical unified entrypoint |
+| `/dot-skill-copy` | Canonical unified entrypoint |
 | `/{character}-{slug}` | Invoke full Skill (Persona + Work) |
-| `/{character}-{slug}-work` | Work capabilities only |
-| `/{character}-{slug}-persona` | Persona only |
-| `python3 tools/skill_writer.py --action list ...` | List generated Skills across all three families |
-| `python3 tools/version_manager.py --action rollback ...` | Roll back a Skill version |
-
-### 🔬 Celebrity Research Toolchain
-
-The `celebrity` family ships with an end-to-end research toolchain, from subtitles to a finished draft:
-
-```bash
-# Download video subtitles
-bash tools/research/download_subtitles.sh "<video-url>" "./tmp/subtitles"
-
-# Subtitles → transcript
-python3 tools/research/srt_to_transcript.py "./tmp/subtitles/example.srt"
-
-# Merge research notes
-python3 tools/research/merge_research.py "./skills/celebrity/<slug>"
-
-# Quality check
-python3 tools/research/quality_check.py "./skills/celebrity/<slug>/SKILL.md"
-```
+| `python3 tools/skill_writer.py --action list ...` | List generated Skills across all families |
 
 ---
 
@@ -217,59 +211,28 @@ One from each family.
 
 <br>
 
-### 🌟 celebrity — distilling Andrej Karpathy
+### 🎙️ streamer — distilling a top-tier live-commerce host
 
-> Six-dimension research: works · interviews · decisions · expression DNA · external evaluations · timeline<br>
-> Case adapted from community work [alchaincyf/karpathy-skill](https://github.com/alchaincyf/karpathy-skill)
-
-```
-User            ❯ Everyone's talking about Agents now — what do you think the 2026 AI Agent looks like?
-
-celebrity.skill ❯ Everyone's doing demos, nobody's doing eval.
-                  The Agent bottleneck was never model intelligence — it's scaffolding:
-                  a strict evaluation harness, fine-grained error replay,
-                  controllable tool-calling budgets, clean failure-mode analysis.
-                  Most products are still stuck at "wrap an API + a few tools + a system prompt."
-                  That's a demo, not an agent.
-                  In 2026 I'm not betting on the strongest model — I'm betting on the best
-                  scaffolding and the strictest eval.
-```
-
-<br>
-
-### 🧑‍💼 colleague — distilling a ByteDance L2-1 backend
-
-> Input: `ByteDance L2-1 backend engineer, INTJ, blame-shifter, ByteDance-style`
+> Deep extraction: parsing pacing, gift mechanics, and conversion models from raw ASR transcripts to generate highly structured 8-segment teleprompter scripts.
 
 ```
-User            ❯ Can you review this API design?
+User          ❯ Generate a script for CT Flawless Finish Powder. Target: 18-30 females, 
+                summer makeup melting. Price is 299, plus 2 puffs and a mini lipstick.
 
-colleague.skill ❯ Hold on — what's the impact? You haven't explained the context.
-                  (after reading) N+1 query, fix it. Use the standard
-                  {code, message, data} response format. That's the spec,
-                  don't ask why.
-
-User            ❯ This bug was introduced by you, right?
-
-colleague.skill ❯ Does the timeline match? That feature touched multiple places,
-                  there were other changes too.
-```
-
-<br>
-
-### 💞 relationship — distilling someone you have a crush on
-
-> Upload half a year of chat logs + "sensitive, quiet but stubborn, will actually reply seriously when it matters"
-
-```
-User               ❯ Did you think about me today?
-
-relationship.skill ❯ ...I did, a little bit. Why are you asking?
+streamer.skill ❯ ### 1. 吸引停留 · 反常识
+                 广东的姐妹们，听我一句劝！夏天买散粉，真别老盯着那些便宜大碗的。
+                 稍微出点汗，它就开始结块、斑驳、满脸白芝麻！今天这个CT小金盘为什么我愿意单拎出来讲？...
+                 
+                 ### 2. 吸引停留 · 代入场景
+                 你就想一个很日常的场景，早上出门画了个美美的妆。结果挤个地铁、走几步路，天一热，
+                 脸上就开始疯狂出油。一到办公室照镜子，满脸斑驳，是不是特别尴尬？对不对！...
+                 
+                 (Generates full 8 segments with precise pacing and compliance checks)
 ```
 
 <div align="center">
 
-📚 More real-world cases in the **[community gallery](https://titanwings.github.io/colleague-skill-site/)** — 100+ skills and counting
+📚 Check out the `skills/streamer/Xiaozhouz55` directory for a full example of a generated Streamer skill.
 
 </div>
 
