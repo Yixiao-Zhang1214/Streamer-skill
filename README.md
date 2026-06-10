@@ -51,35 +51,27 @@ Thinks in their frame, speaks in their voice
 
 <div align="center">
 
-### 🎉 2026.04.19 Milestone — **dot-skill just hit 15k ⭐!**
-
-Massive thanks to everyone who starred — we'll keep shipping, keep distilling.
-
-</div>
-
-> 📝 **2026.06.10 Update** — **[STREAMER.SKILL 深度带货模块] 核心能力升级**：新增直播带货达人（Streamer）蒸馏链路，支持“8段式深度口播”结构、7阶段 Selling Flow 方法论、以及自动化的机评/合规自检系统。
-
-> 📝 **2026.06.01 Update** — **[COLLEAGUE.SKILL 技术报告](colleague_skill.pdf) 已上线**；这次最开心的不只是发了篇 paper，而是社区一起把 gallery 推到 215 个 skills、165 位贡献者和 100k+ skill-card 累计 stars，论文 Acknowledgements 也专门收录并感谢了所有社区贡献者。
-
-> 📢 **2026.05.11 Update** — **WeChat group 12 is live!** Come hang out with the dot-skill community — share skills, discuss features, trade tips.
->
-> <img src="docs/assets/wechat-group-qr-12.png" alt="dot-skill WeChat group QR" width="240">
->
-> QR refreshes every 7 days (expires 2026-05-18) — if expired, ping me on Discord.
-
-> 🗺️ **2026.04.13** — **dot-skill Roadmap is live!** colleague.skill is evolving into **dot-skill** — distill anyone, not just colleagues. 👉 **[Full Roadmap](ROADMAP.md)** · **[💬 Discord](https://discord.gg/NVX66RxWZv)**
-
-> 🌐 **2026.04.07** — Community gallery is live! Any skill / meta-skill can drive traffic directly to your own GitHub repo. No middleman. 👉 **[titanwings.github.io/colleague-skill-site](https://titanwings.github.io/colleague-skill-site/)**
-
-<div align="center">
-
-Created by [@titanwings](https://github.com/titanwings) · Powered by **Shanghai AI Lab · AI Safety Center**
+**Based on dot-skill** · Upgraded by [Yixiao-Zhang1214](https://github.com/Yixiao-Zhang1214)
 
 </div>
 
 ---
 
-## 🆕 What's new in this major release?
+## 🆕 What's new in this fork?
+
+### 🎙️ Deep Live-Commerce Engine (Streamer.skill)
+
+This repository is a fork of the original `dot-skill`, but with a **massive upgrade to the Streamer (直播达人) family**. We have completely overhauled the live-commerce generation engine to produce professional-grade, high-conversion scripts.
+
+**Key Upgrades:**
+1. **8-Segment Deep Teleprompter Structure (8段式深度口播)**:
+   Replaced the basic script format with an industry-standard 8-segment flow: Counter-Intuitive Hook → Relatable Scene → Value Prop → Sensory Breakdown → Pain Point Mapping → Trust Guarantee → Interaction → Risk Reversal.
+2. **7-Stage Selling Flow**:
+   Distills the streamer's unique pacing, gift mechanics, and pressure-selling tactics into a robust 7-stage methodology.
+3. **Automated Rubric & Compliance**:
+   Built-in `P0/P1` script evaluation rubric and a strict compliance gate to prevent absolute claims while maintaining high conversion pressure.
+
+---
 
 ### 1️⃣ From colleague-skill to dot-skill
 
