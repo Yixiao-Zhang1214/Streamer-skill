@@ -124,6 +124,16 @@ streamer.skill ❯ ### 1. 吸引停留 · 反常识
 
 ---
 
+## 鸣谢与溯源 (Acknowledgements)
+
+本项目是对开源项目 **[dot-skill (原 colleague.skill)](https://github.com/titanwings/colleague-skill/tree/dot-skill)** 的深度定制与扩展。
+
+特此感谢原作者 [@titanwings](https://github.com/titanwings) 及其构建的底层 Persona + Work 双层蒸馏架构。我们在其优秀的基座之上，引入了直播带货领域的专属方法论与自动化评估体系，从而演进出了当前的 **Streamer.skill** 引擎。
+
+如果你对同事、亲密关系或公众人物的 AI 蒸馏同样感兴趣，强烈推荐访问原项目了解更多。
+
+---
+
 <div align="center">
 
 **MIT License** © 基于 dot-skill 开源协议
