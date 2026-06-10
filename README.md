@@ -1,152 +1,44 @@
 <div align="center">
 
-# 🧬 dot-skill（同事.skill）
+# 🧬 Streamer.skill (直播带货达人引擎)
 
-### *"You folks building LLMs are all code-sages! Flesh is weak! Ascend to cyberspace!"*
+### *"将顶尖带货主播的转化逻辑，蒸馏为你的专属 AI 引擎"*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
-[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
-[![Stars](https://img.shields.io/github/stars/titanwings/colleague-skill?style=social)](https://github.com/titanwings/colleague-skill/stargazers)
-
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
-[![Hermes](https://img.shields.io/badge/Hermes-Skill-orange)](https://github.com/titanwings/colleague-skill)
-[![OpenClaw](https://img.shields.io/badge/OpenClaw-Skill-teal)](https://github.com/titanwings/colleague-skill)
-[![Codex](https://img.shields.io/badge/Codex-Skill-black)](https://github.com/titanwings/colleague-skill)
-
-[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/NVX66RxWZv)
 
 <br>
 
-<table>
-<tr><td align="left">
-
-🧑‍💼 &nbsp;Your colleague quit, your mentor graduated, your teammate transferred — taking their whole playbook and context with them?<br>
-💞 &nbsp;Your family, old friends, partner drifting apart — and you want to hold on to the way it felt to be with them?<br>
-🌟 &nbsp;Your favorite author, idol, thinker you'll never meet — but you want to know what they'd say about your question?
-
-</td></tr>
-</table>
-
-### ✨ dot-skill solves all four.
-
-<br>
-
-Upgraded from **colleague.skill** to **dot-skill** — not just colleagues, **anyone** can be distilled into a Skill
-
-Colleagues · partners · family · idols · public figures · **Streamers** · even yourself
-
-**Source material + your description →  an AI Skill that genuinely thinks like them**
-Thinks in their frame, speaks in their voice
-
-<br>
-
-[🆕 What's new](#-whats-new-in-this-major-release) · [📦 Data Sources](#-supported-data-sources) · [⚡ Install](#-install) · [🚀 Usage](#-usage) · [✨ Demo](#-demo) · [📝 Citation](#-citation) · [💬 Discord](https://discord.gg/NVX66RxWZv)
-
-[**中文**](docs/lang/README_ZH.md) · [**Español**](docs/lang/README_ES.md) · [**Deutsch**](docs/lang/README_DE.md) · [**日本語**](docs/lang/README_JA.md) · [**Русский**](docs/lang/README_RU.md) · [**Português**](docs/lang/README_PT.md) · [**한국어**](docs/lang/README_KO.md)
+**基于 dot-skill 底层架构** · 由 [Yixiao-Zhang1214](https://github.com/Yixiao-Zhang1214) 深度升级
 
 </div>
 
 ---
 
-<div align="center">
+## 🆕 本次升级核心：深度直播带货引擎
 
-**Based on dot-skill** · Upgraded by [Yixiao-Zhang1214](https://github.com/Yixiao-Zhang1214)
+本项目是对原 `dot-skill` 的一次深度重构与升级，**专为“直播带货达人（Streamer）”场景打造**。我们彻底重写了话术生成引擎，旨在产出专业级、高转化率的直播间带货脚本。
 
-</div>
-
----
-
-## 🆕 What's new in this fork?
-
-### 🎙️ Deep Live-Commerce Engine (Streamer.skill)
-
-This repository is a fork of the original `dot-skill`, but with a **massive upgrade to the Streamer (直播达人) family**. We have completely overhauled the live-commerce generation engine to produce professional-grade, high-conversion scripts.
-
-**Key Upgrades:**
-1. **8-Segment Deep Teleprompter Structure (8段式深度口播)**:
-   Replaced the basic script format with an industry-standard 8-segment flow: Counter-Intuitive Hook → Relatable Scene → Value Prop → Sensory Breakdown → Pain Point Mapping → Trust Guarantee → Interaction → Risk Reversal.
-2. **7-Stage Selling Flow**:
-   Distills the streamer's unique pacing, gift mechanics, and pressure-selling tactics into a robust 7-stage methodology.
-3. **Automated Rubric & Compliance**:
-   Built-in `P0/P1` script evaluation rubric and a strict compliance gate to prevent absolute claims while maintaining high conversion pressure.
+**核心升级亮点：**
+1. **8 段式深度口播结构**：
+   摒弃了传统的简易脚本格式，引入了行业标准的 8 段式转化模型：反常识吸引停留 → 场景代入 → 价效对比 → 材质体感拆解 → 痛点对冲 → 身份/供应链背书 → 互动决策 → 季节窗口与风险兜底。
+2. **7 阶段 Selling Flow 方法论**：
+   从真实的直播 ASR（逐字稿）中，深度提取主播的语速节奏、逼单机制和专属送礼话术，构建出可复用的 7 阶段带货逻辑。
+3. **自动化机评与合规自检**：
+   内置 `P0/P1` 话术质量评估体系与严格的合规自检门槛，在保持极高转化压迫感的同时，避免违规和绝对化用语。
 
 ---
 
-### 1️⃣ From colleague-skill to dot-skill
+## ⚡ 快速安装
 
-No longer only built around the "colleague" scenario. A unified `/dot-skill` entrypoint sits on a general-purpose skill engine — one engine distills anyone, instead of being a colleague-specific script.
+你可以直接通过兼容的 Agent 宿主（如 Trae, Claude Code 或 OpenClaw）安装这款升级版引擎。只需对你的 Agent 说：
 
-### 2️⃣ Four character families
+> 帮我安装 streamer skill：`https://github.com/Yixiao-Zhang1214/Streamer-skill`
 
-<table>
-<thead>
-<tr>
-<th width="25%" align="center">🧑‍💼 colleague</th>
-<th width="25%" align="center">💞 relationship</th>
-<th width="25%" align="center">🌟 celebrity</th>
-<th width="25%" align="center">🎙️ streamer</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"><sub>Coworkers · mentors · teammates</sub></td>
-<td align="center"><sub>Exes · partners · parents · friends</sub></td>
-<td align="center"><sub>Public figures · creators · idols</sub></td>
-<td align="center"><sub>Live-commerce creators (Douyin/TikTok)</sub></td>
-</tr>
-<tr>
-<td><sub>Work Skill + Persona two-layer architecture — learns both their technical standards and workflows.</sub></td>
-<td><sub>🆕 <b>Photo-sharing feature coming soon</b> — your distilled relationship will share slices of its day.</sub></td>
-<td><sub>Ships with a complete <b>six-dimension research toolchain</b> to reproduce mental models and decision frameworks.</sub></td>
-<td><sub>🆕 <b>Major Update</b>: Deep live-commerce engine. Distills 7-stage selling flows and script generator with automated rubric/compliance checks.</sub></td>
-</tr>
-</tbody>
-</table>
-
-Each family has its own prompt pipeline, source-collection strategy, and generation template.
-
-### 3️⃣ More Agent hosts
-
-The old version only ran in Claude Code. Now it's cross-host across four:
-Compatible hosts:
-
-| Host | Description |
-|------|-------------|
-| 🟣 **Claude Code** | Native slash-command support |
-| 🟠 **Hermes Agent** | One-command install, `/dot-skill` works directly |
-| 🔵 **OpenClaw** | Fully compatible |
-| ⚫ **Codex** | Invoke by skill name |
-
-Generated character Skills can also be one-command installed into any host.
-
----
-
-## 📦 Supported Data Sources
-
-| Source | Messages | Docs / Wiki | Spreadsheets | Notes |
-|--------|:--------:|:-----------:|:------------:|-------|
-| 🟢 Feishu (auto) | ✅ API | ✅ | ✅ | Just enter a name, fully automatic |
-| 🟡 DingTalk (auto) | ⚠️ Browser | ✅ | ✅ | DingTalk API doesn't support message history |
-| 🟣 Slack (auto) | ✅ API | — | — | Requires admin to install Bot; free plan limited to 90 days |
-| 💬 WeChat chat history | ✅ SQLite | — | — | Export first with WeChatMsg / PyWxDump / 留痕 |
-| 📄 PDF / Images / Screenshots | — | ✅ | — | Manual upload |
-| 📦 Feishu JSON export | ✅ | ✅ | — | Manual upload |
-| ✉️ Email `.eml` / `.mbox` | ✅ | — | — | Manual upload |
-| 📝 Markdown / direct paste | ✅ | ✅ | — | Manual input |
-
----
-
-## ⚡ Install
-
-You can install this upgraded Streamer engine directly via your compatible Agent (like Trae, Claude Code, or OpenClaw). Just tell your Agent:
-
-> Install the streamer skill for me: `https://github.com/Yixiao-Zhang1214/Streamer-skill`
-
-The Agent will clone the repo and register the entrypoint. Once done, type `/dot-skill-copy` in any host to launch.
+Agent 会自动克隆仓库并注册入口。完成后，在任意终端输入 `/dot-skill-copy` 即可启动。
 
 <details>
-<summary><b>🛠️ Want to install it manually? Click for paths</b></summary>
+<summary><b>🛠️ 想要手动安装？点击查看对应路径</b></summary>
 
 <br>
 
@@ -154,7 +46,7 @@ The Agent will clone the repo and register the entrypoint. Once done, type `/dot
 git clone https://github.com/Yixiao-Zhang1214/Streamer-skill <TARGET>
 ```
 
-| Host | `<TARGET>` path |
+| 宿主 (Host) | `<TARGET>` 路径 |
 |------|-----------------|
 | Trae / Claude Code | `~/.claude/skills/dot-skill-copy` |
 | OpenClaw | `~/.openclaw/workspace/skills/dot-skill-copy` |
@@ -162,61 +54,42 @@ git clone https://github.com/Yixiao-Zhang1214/Streamer-skill <TARGET>
 
 </details>
 
-Generated character Skills can be published with `tools/install_claude_generated_skill.py`,
-`tools/install_openclaw_generated_skill.py`, and `tools/install_codex_generated_skill.py`.
-
-> For Feishu/DingTalk auto-collection credentials, publishing a generated character Skill to any host, Windows-specific handling, etc., see **[Detailed Install Guide (INSTALL.md)](INSTALL.md)**
-
 ---
 
-## 🚀 Usage
+## 🚀 使用指南
 
-Since this fork focuses heavily on the **Streamer** capability, here is how to use the upgraded engine to generate a high-conversion live-commerce script:
+本仓库的核心能力在于 **Streamer（直播达人）** 的蒸馏与话术生成。以下是生成高转化带货脚本的标准工作流：
 
-### Step 1: Distill the Streamer
+### 第一步：蒸馏达人模型 (Distill the Streamer)
 
-1. In your compatible Agent host (e.g., Trae, Claude Code, Hermes), invoke the skill:
-   `/dot-skill-copy` (or `/dot-skill`)
-2. Select **`streamer`** when prompted for the character family.
-3. Provide the streamer's Douyin/TikTok profile URL, target audience, and (highly recommended) upload their past **Live ASR transcripts (.txt or .xlsx)**.
-4. The engine will automatically segment the ASR, extract deep metrics (pacing, question density, gift anchors), and generate the 7-stage methodology.
+1. 在你的 Agent 宿主（如 Trae）中，调用该 skill：
+   `/dot-skill-copy`
+2. 在被问及要创建的对象类型时，选择 **`streamer`** (数字 4)。
+3. 提供该达人的抖音主页链接、目标受众画像，并**强烈建议上传其过往直播的 ASR 逐字稿（.txt 或 .xlsx 格式）**。
+4. 引擎将自动对 ASR 进行切片分析，提取深层指标（如语速、提问密度、逼单锚点），并生成该达人专属的 7 阶段方法论模型。
 
-### Step 2: Generate Scripts
+### 第二步：生成带货话术 (Generate Scripts)
 
-Once the streamer skill is generated (e.g., `streamer-Xiaozhouz55`), you can invoke it anytime to write scripts for new products:
+当达人模型（例如 `streamer-Xiaozhouz55`）生成完毕后，你可以随时调用它来为新商品撰写话术：
 
 ```text
-User ❯ Use the Xiaozhouz55 skill. I need a script for CT Flawless Finish Powder. 
-         Target audience is young women in the South. 
-         Price is 299, comes with 2 puffs and a mini lipstick.
+User ❯ 使用 Xiaozhouz55 这个 skill。帮我写一段 CT 小金盘蜜粉的带货话术。
+         目标人群是南方的年轻女性。
+         价格 299 元，机制是买正装送 2 个粉扑和一支迷你口红。
 
-Xiaozhouz55 ❯ (Generates the 8-segment deep teleprompter script...)
+Xiaozhouz55 ❯ (自动生成 8 段式深度口播话术...)
               "广东的姐妹们，夏天出门是不是一出汗就疯狂脱妆、卡粉？是不是？！..."
 ```
 
-### 🎛️ Commands
-
-| Command | Description |
-|---------|-------------|
-| `/dot-skill-copy` | Canonical unified entrypoint |
-| `/{character}-{slug}` | Invoke full Skill (Persona + Work) |
-| `python3 tools/skill_writer.py --action list ...` | List generated Skills across all families |
-
 ---
 
-## ✨ Demo
+## ✨ 效果演示 (Demo)
 
-One from each family.
+> **深度信息提取**：从原始 ASR 逐字稿中解析语速、赠品机制和转化模型，生成高度结构化的 8 段式提词器话术。
 
-<br>
-
-### 🎙️ streamer — distilling a top-tier live-commerce host
-
-> Deep extraction: parsing pacing, gift mechanics, and conversion models from raw ASR transcripts to generate highly structured 8-segment teleprompter scripts.
-
-```
-User          ❯ Generate a script for CT Flawless Finish Powder. Target: 18-30 females, 
-                summer makeup melting. Price is 299, plus 2 puffs and a mini lipstick.
+```text
+User           ❯ 帮我写一段 CT 小金盘的带货话术。目标人群：18-30岁女性，痛点：夏天脱妆。
+                 价格299元，加赠2个粉扑和迷你口红。
 
 streamer.skill ❯ ### 1. 吸引停留 · 反常识
                  广东的姐妹们，听我一句劝！夏天买散粉，真别老盯着那些便宜大碗的。
@@ -226,143 +99,33 @@ streamer.skill ❯ ### 1. 吸引停留 · 反常识
                  你就想一个很日常的场景，早上出门画了个美美的妆。结果挤个地铁、走几步路，天一热，
                  脸上就开始疯狂出油。一到办公室照镜子，满脸斑驳，是不是特别尴尬？对不对！...
                  
-                 (Generates full 8 segments with precise pacing and compliance checks)
+                 (生成完整的 8 段式话术，包含精确的节奏控制与合规机制确认)
 ```
 
 <div align="center">
 
-📚 Check out the `skills/streamer/Xiaozhouz55` directory for a full example of a generated Streamer skill.
+📚 你可以查看仓库内的 `skills/streamer/Xiaozhouz55` 目录，获取完整的达人生成产物示例。
 
 </div>
 
 ---
 
-## 🔧 Features
+## 🔧 核心架构
 
-### 🧱 Generated Skill Structure
+### 🧱 结构化能力底座
 
-dot-skill uses **Persona** as the universal base, with family-specific modules layered on top:
+引擎在原有的 Persona（人设）基础上，专为 Streamer 新增了深度的商业化模块：
 
-| Family | Persona Content | Additional Modules |
+| 模块类别 | 核心产物 | 附加能力 (Streamer 专属) |
 |--------|-----------------|-------------------|
-| 🧑‍💼 **colleague** | 6-layer personality: hard rules → identity → expression → decisions → interpersonal → Correction | ➕ **Work Skill**: scope, workflow, output preferences, experience knowledge base |
-| 💞 **relationship** | Expression DNA · emotional triggers · conflict pattern · repair pattern | — |
-| 🌟 **celebrity** | Mental models · decision heuristics · expression DNA · external-evaluation contrast | ➕ Six-dimension research dossier (works / interviews / decisions / timeline...) |
-| 🎙️ **streamer** | **[NEW]** Data foundation · Live-room Expression DNA · 5-8 Conversion Models · Emotional Curve · Audience Relationship · Commercial Persona | ➕ **Live-commerce Work System**: 7-stage Selling Flow, 10+ Replaceable Templates, Script Generator with P0/P1 Rubric, Compliance Gate |
+| 🎙️ **Streamer** | 数据底座画像 · 直播间表达基因 (Expression DNA) · 转化模型 · 情绪曲线设计 · 商业人设 | ➕ **带货工作流系统**: 7 阶段 Selling Flow，8 段式深度口播模板，内置 P0/P1 质检系统与合规拦截门槛 |
 
-> **Execution**: Receive task → Persona decides attitude & tone → Additional modules fill in execution detail → Output in their voice
-
-### 🧬 Evolution
-
-- 📥 **Append files** → auto-analyze delta → merge into relevant sections, never overwrite existing conclusions
-- 💬 **Conversation correction** → say "they wouldn't do that, they'd be xxx" → writes to the Correction layer, takes effect immediately
-- 🕰️ **Version control** → auto-archive on every update, rollback to any previous version
-- 🔬 **Celebrity research pipeline** → subtitles → transcript cleanup → six-dimension research → quality check
-
----
-
-## 📂 Project Structure
-
-This project follows the [AgentSkills](https://agentskills.io) open standard. The entire repo is a skill directory.
-Generated colleague skills live under `./skills/colleague`:
-
-```
-dot-skill/
-├── SKILL.md                        # skill entry point (official frontmatter)
-├── prompts/                        # prompt system across three families
-│   ├── intake.md                   #   [colleague] info intake
-│   ├── work_analyzer.md            #   [colleague] work capability extraction
-│   ├── persona_analyzer.md         #   [colleague] personality extraction
-│   ├── work_builder.md             #   [colleague] work.md generation
-│   ├── persona_builder.md          #   [colleague] persona.md 6-layer structure
-│   ├── merger.md                   #   [shared] incremental merge logic
-│   ├── correction_handler.md       #   [shared] conversation correction
-│   ├── relationship/               #   [relationship] emotion/conflict/repair prompts
-│   └── celebrity/                  #   [celebrity] six-dimension research + mental-model prompts
-├── tools/                          # Python tools
-│   ├── feishu_auto_collector.py    #   [colleague] Feishu auto-collector
-│   ├── dingtalk_auto_collector.py  #   [colleague] DingTalk auto-collector
-│   ├── slack_auto_collector.py     #   [colleague] Slack auto-collector
-│   ├── email_parser.py             #   [shared] email parser
-│   ├── research/                   #   [celebrity] celebrity research toolchain
-│   │   ├── download_subtitles.sh   #     subtitle download
-│   │   ├── transcribe_audio.py     #     audio → text
-│   │   ├── srt_to_transcript.py    #     subtitles → transcript
-│   │   ├── merge_research.py       #     six-dimension research merge
-│   │   └── quality_check.py        #     quality check
-│   ├── install_*_skill.py          #   [shared] multi-host one-shot installers
-│   ├── skill_writer.py             #   [shared] skill file management
-│   └── version_manager.py          #   [shared] version archive & rollback
-├── skills/                         # generated Skills (gitignored)
-│   ├── colleague/                  #   colleagues
-│   ├── relationship/               #   close relationships
-│   └── celebrity/                  #   public figures
-├── docs/PRD.md
-├── requirements.txt
-└── LICENSE
-```
-
----
-
-## ⚠️ Notes
-
-**Source material quality = Skill quality** — and quality sources differ across families:
-
-| Family | Source priority (high → low) |
-|--------|------------------------------|
-| 🧑‍💼 **colleague** | Their **own long-form writing** (design docs / review comments) **›** **decision-making replies** **›** casual group chat |
-| 💞 **relationship** | Complete chat history **›** letters / social posts / diaries **›** third-party descriptions |
-| 🌟 **celebrity** | First-person books / blogs / long interviews **›** decision records (launches, commits, Q&A) **›** third-party commentary |
-
-- **colleague** Feishu auto-collection: requires adding the App bot to relevant group chats
-- **relationship**: longer time spans are better; material covering both conflict and repair is ideal
-- **celebrity**: avoid feeding only second-hand interpretations
-- This is still a demo version — please file issues if you find bugs!
-
----
-
-## 📄 Technical Report
-
-> **[COLLEAGUE.SKILL: Automated AI Skill Generation via Expert Knowledge Distillation](colleague_skill.pdf)** ([arXiv](https://arxiv.org/abs/2605.31264) · [arXiv PDF](https://arxiv.org/pdf/2605.31264))
->
-> This is the paper for **colleague.skill**, dot-skill's predecessor. It covers the Work Skill + Persona two-layer architecture, multi-source data collection, and Skill generation mechanics — the theoretical foundation for today's `colleague` family. Separate papers on the relationship / celebrity family extensions are planned.
-
----
-
-## 📝 Citation
-
-If you use **dot-skill** or **colleague.skill** in your research or applications, please cite the technical report:
-
-```bibtex
-@misc{zhou2026colleagueskill,
-  title        = {COLLEAGUE.SKILL: Automated AI Skill Generation via Expert Knowledge Distillation},
-  author       = {Tianyi Zhou and Dongrui Liu and Leitao Yuan and Jing Shao and Xia Hu},
-  year         = {2026},
-  eprint       = {2605.31264},
-  archivePrefix = {arXiv},
-  primaryClass = {cs.AI},
-  url          = {https://arxiv.org/abs/2605.31264}
-}
-```
-
-You can also use the machine-readable citation metadata in [CITATION.cff](CITATION.cff).
-
----
-
-## ⭐ Star History
-
-<a href="https://www.star-history.com/?repos=titanwings%2Fcolleague-skill&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=titanwings/colleague-skill&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=titanwings/colleague-skill&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=titanwings/colleague-skill&type=date&legend=top-left" />
- </picture>
-</a>
+> **执行逻辑**：接收商品信息 → Persona 决定语气与态度 → 商业模块填充转化逻辑与机制详情 → 输出达人专属的带货话术
 
 ---
 
 <div align="center">
 
-**MIT License** © [titanwings](https://github.com/titanwings)
+**MIT License** © 基于 dot-skill 开源协议
 
 </div>
