@@ -1,0 +1,40 @@
+# Generated dot-skill outputs (user data, not committed)
+skills/
+knowledge/
+*.txt
+!README.md
+!SKILL.md
+!INSTALL.md
+!ROADMAP.md
+!CITATION.cff
+!LICENSE
+!requirements.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Config with credentials
+.env
+auth.json
+*.json
+!manifest.json
+!meta.json
+!package.json
+!composer.json
+!package-lock.json
+
+# Playwright browser data
+playwright-data/
+
+# Temp files
+/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
