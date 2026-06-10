@@ -28,13 +28,13 @@
 </td></tr>
 </table>
 
-### ✨ dot-skill solves all three.
+### ✨ dot-skill solves all four.
 
 <br>
 
 Upgraded from **colleague.skill** to **dot-skill** — not just colleagues, **anyone** can be distilled into a Skill
 
-Colleagues · partners · family · old friends · idols · public figures · fictional characters — even yourself
+Colleagues · partners · family · idols · public figures · **Streamers** · even yourself
 
 **Source material + your description →  an AI Skill that genuinely thinks like them**
 Thinks in their frame, speaks in their voice
@@ -56,6 +56,8 @@ Thinks in their frame, speaks in their voice
 Massive thanks to everyone who starred — we'll keep shipping, keep distilling.
 
 </div>
+
+> 📝 **2026.06.10 Update** — **[STREAMER.SKILL 深度带货模块] 核心能力升级**：新增直播带货达人（Streamer）蒸馏链路，支持“8段式深度口播”结构、7阶段 Selling Flow 方法论、以及自动化的机评/合规自检系统。
 
 > 📝 **2026.06.01 Update** — **[COLLEAGUE.SKILL 技术报告](colleague_skill.pdf) 已上线**；这次最开心的不只是发了篇 paper，而是社区一起把 gallery 推到 215 个 skills、165 位贡献者和 100k+ skill-card 累计 stars，论文 Acknowledgements 也专门收录并感谢了所有社区贡献者。
 
@@ -83,26 +85,29 @@ Created by [@titanwings](https://github.com/titanwings) · Powered by **Shanghai
 
 No longer only built around the "colleague" scenario. A unified `/dot-skill` entrypoint sits on a general-purpose skill engine — one engine distills anyone, instead of being a colleague-specific script.
 
-### 2️⃣ Three character families
+### 2️⃣ Four character families
 
 <table>
 <thead>
 <tr>
-<th width="33%" align="center">🧑‍💼 colleague</th>
-<th width="33%" align="center">💞 relationship</th>
-<th width="33%" align="center">🌟 celebrity</th>
+<th width="25%" align="center">🧑‍💼 colleague</th>
+<th width="25%" align="center">💞 relationship</th>
+<th width="25%" align="center">🌟 celebrity</th>
+<th width="25%" align="center">🎙️ streamer</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center"><sub>Coworkers · mentors · teammates · up/downstream partners</sub></td>
-<td align="center"><sub>Exes · partners · parents · friends · close family</sub></td>
-<td align="center"><sub>Public figures · creators · public voices · fictional characters</sub></td>
+<td align="center"><sub>Coworkers · mentors · teammates</sub></td>
+<td align="center"><sub>Exes · partners · parents · friends</sub></td>
+<td align="center"><sub>Public figures · creators · idols</sub></td>
+<td align="center"><sub>Live-commerce creators (Douyin/TikTok)</sub></td>
 </tr>
 <tr>
-<td><sub>Work Skill + Persona two-layer architecture — learns both their technical standards and workflows, and their manner of speaking and workplace posture. Supports Feishu / DingTalk / Slack auto-collection.</sub></td>
-<td><sub>🆕 <b>Photo-sharing feature coming soon</b> — your distilled relationship won't just reply to messages; it'll send photos and share slices of its day, the way a real person would.</sub></td>
-<td><sub>Ships with a complete <b>six-dimension research toolchain</b> (subtitles → transcript cleanup → research merge → quality check). Not mimicking tone — reproducing their mental models and decision frameworks.</sub></td>
+<td><sub>Work Skill + Persona two-layer architecture — learns both their technical standards and workflows.</sub></td>
+<td><sub>🆕 <b>Photo-sharing feature coming soon</b> — your distilled relationship will share slices of its day.</sub></td>
+<td><sub>Ships with a complete <b>six-dimension research toolchain</b> to reproduce mental models and decision frameworks.</sub></td>
+<td><sub>🆕 <b>Major Update</b>: Deep live-commerce engine. Distills 7-stage selling flows and script generator with automated rubric/compliance checks.</sub></td>
 </tr>
 </tbody>
 </table>
@@ -289,6 +294,7 @@ dot-skill uses **Persona** as the universal base, with family-specific modules l
 | 🧑‍💼 **colleague** | 6-layer personality: hard rules → identity → expression → decisions → interpersonal → Correction | ➕ **Work Skill**: scope, workflow, output preferences, experience knowledge base |
 | 💞 **relationship** | Expression DNA · emotional triggers · conflict pattern · repair pattern | — |
 | 🌟 **celebrity** | Mental models · decision heuristics · expression DNA · external-evaluation contrast | ➕ Six-dimension research dossier (works / interviews / decisions / timeline...) |
+| 🎙️ **streamer** | **[NEW]** Data foundation · Live-room Expression DNA · 5-8 Conversion Models · Emotional Curve · Audience Relationship · Commercial Persona | ➕ **Live-commerce Work System**: 7-stage Selling Flow, 10+ Replaceable Templates, Script Generator with P0/P1 Rubric, Compliance Gate |
 
 > **Execution**: Receive task → Persona decides attitude & tone → Additional modules fill in execution detail → Output in their voice
 
